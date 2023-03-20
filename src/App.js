@@ -1,9 +1,9 @@
-import Home from "./BT_LayoutBootstrap/Home";
+import HomeGlasses from "./BT_Glasses/HomeGlasses";
 
 function App() {
   return (
-    <div>
-      <Home></Home>
+    <div >
+      <HomeGlasses></HomeGlasses>
     </div>
   );
 }
