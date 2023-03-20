@@ -4,8 +4,7 @@ import Model from './Model'
 import styles from './main.module.scss'
 
 function HomeGlasses() {
-
-  const [item, setItem] = useState(null)
+  const [item, setItem] = useState("")
   const handleChangeData = (item) => {
     setItem(item)
   }
