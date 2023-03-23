@@ -1,7 +1,9 @@
+import HomeShoeShop from "./BT_CART/HomeShoeShop";
+
 function App() {
   return (
     <div className="App">
-      app
+      <HomeShoeShop></HomeShoeShop>
     </div>
   );
 }
