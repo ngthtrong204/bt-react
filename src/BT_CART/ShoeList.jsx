@@ -1,8 +1,17 @@
 import React from 'react'
+import ShoeItem from './ShoeItem'
 
-function ShoeList() {
+function ShoeList({onAddToCart}) {
+
+   const handleAddToCard = (item) =>{
+      onAddToCart(item)
+   }
+
+
    return (
-      <div>ShoeList</div>
+      <div className='container'>
+         <ShoeItem   onAddToCart={handleAddToCard}></ShoeItem>
+      </div>
    )
 }
 

@@ -1,8 +1,7 @@
-@import "@font/nunito/index.css";
-
 body {
+  background-color: #FFF4E0;
   margin: 0;
-  font-family: var(--fontFamily-nunito);
+  font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
